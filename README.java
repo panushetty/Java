@@ -1,8 +1,14 @@
 //# hello_world
 //first repository
-Class world
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class world
 {
-public static void main(){
+public static void main(String[] args){
 System.out.printn("Hello Github ");
 }
 }
