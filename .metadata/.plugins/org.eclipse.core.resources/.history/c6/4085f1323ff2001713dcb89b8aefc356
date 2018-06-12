@@ -1,0 +1,51 @@
+package com.pranayshetty;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Countdown countdown=new Countdown();
+		CountdownThread t1=new CountdownThread(countdown);
+		CountdownThread t2=new CountdownThread(countdown);
+		t1.setName("papppu");
+		t2.setName("bakbak");
+		t1.start();
+		t2.start();
+
+	}
+	
+
+
+}
+
+
+class Countdown{
+	public void doCountdown() {
+		String color;
+		switch(Thread.currentThread().getName()) {
+			case "papppu":
+				color="hello";
+			case "bakbak":
+				color="hi";
+			default:
+				color="hello";
+		}
+		for(int i=10;i>0;i--) {
+			System.out.println(color+" "+Thread.currentThread().getName()+"  "+i);
+		}
+	}
+}
+
+
+class CountdownThread extends Thread{
+	private Countdown threadCountdown;
+
+	public CountdownThread(Countdown threadCountdown) {
+		this.threadCountdown = threadCountdown;
+	}
+	
+	public void run() {
+		threadCountdown.doCountdown();
+	}
+	
+	
+}

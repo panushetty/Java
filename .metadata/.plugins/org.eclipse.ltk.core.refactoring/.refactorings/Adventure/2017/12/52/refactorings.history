@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;w&apos; in &apos;com.pranayshetty.Main.main(...)&apos; to &apos;exit&apos;&#x0D;&#x0A;- Original project: &apos;Adventure&apos;&#x0D;&#x0A;- Original element: &apos;com.pranayshetty.Main.main(String[]).w&apos;&#x0D;&#x0A;- Renamed element: &apos;w&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;w&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.pranayshetty{Main.java[Main~main~\[QString;@w!1668!1690!1675!1675!QString;!0!false" name="exit" references="true" stamp="1514354890866" version="1.0"/>
+</session>

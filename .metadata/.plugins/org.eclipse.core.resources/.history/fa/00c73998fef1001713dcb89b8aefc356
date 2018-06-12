@@ -1,0 +1,23 @@
+package com.pranayshetty;
+
+public class Main {
+
+	private static final String ANSI_PURPLE = "\u001B[0m";
+
+	public static void main(String[] args) {
+		System.out.println(ANSI_PURPLE+"Hello to the main thread");
+		Thread anotherThread=new AnotherThread();
+		
+		new Thread() {
+			public void run (){
+				System.out.println("hello from Anonymous");
+			}
+		}.start();
+		
+		
+		anotherThread.start();
+		
+
+	}
+
+}

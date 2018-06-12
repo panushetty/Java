@@ -1,0 +1,23 @@
+package com.pranayshetty;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+
+
+}
+
+
+class Countdown{
+	public void doCountdown() {
+		String color;
+		switch(Thread.currentThread().getName()) {
+		case "Tread 1":
+			
+		}
+	}
+}

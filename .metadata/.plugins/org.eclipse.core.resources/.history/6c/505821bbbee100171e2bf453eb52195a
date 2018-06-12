@@ -1,0 +1,19 @@
+package com.pranayshetty;
+
+public class Animal {
+	private int brain;
+	private int body;
+	private int size;
+	private int weight;
+	private String name;
+	
+	public Animal(String name, int brain,int body ,int size,int weight) {
+		this.brain=brain;
+		this.body=body;
+		this.name=name;
+		this.size=size;
+		this.weight=weight;
+	}
+	
+
+}

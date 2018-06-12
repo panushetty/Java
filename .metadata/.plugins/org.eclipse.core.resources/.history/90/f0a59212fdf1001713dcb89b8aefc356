@@ -1,0 +1,10 @@
+package com.pranayshetty;
+
+public class AnotherThread extends Thread{
+
+	@Override
+	public void run() {
+		System.out.println("There is another thread ");
+	}
+	
+}
